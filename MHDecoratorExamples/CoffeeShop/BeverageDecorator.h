@@ -19,6 +19,8 @@
 @interface BeverageDecorator : Beverage
 
 - (instancetype)initWithBeverage:(Beverage *)beverage;
-
+- (double)cost;
+- (BeverageSize)size;
+- (NSString *)description;
 
 @end
