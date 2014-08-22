@@ -10,6 +10,11 @@
 		D21D7E6119A75AD70086FE34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21D7E6019A75AD70086FE34 /* Foundation.framework */; };
 		D21D7E6419A75AD70086FE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E6319A75AD70086FE34 /* main.m */; };
 		D21D7E6819A75AD70086FE34 /* MHDecoratorExamples.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D21D7E6719A75AD70086FE34 /* MHDecoratorExamples.1 */; };
+		D21D7E7919A75B530086FE34 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E7019A75B530086FE34 /* Beverage.m */; };
+		D21D7E7A19A75B530086FE34 /* BeverageDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E7219A75B530086FE34 /* BeverageDecorator.m */; };
+		D21D7E7B19A75B530086FE34 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E7419A75B530086FE34 /* Espresso.m */; };
+		D21D7E7C19A75B530086FE34 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E7619A75B530086FE34 /* Milk.m */; };
+		D21D7E7D19A75B530086FE34 /* Soya.m in Sources */ = {isa = PBXBuildFile; fileRef = D21D7E7819A75B530086FE34 /* Soya.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		D21D7E6319A75AD70086FE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D21D7E6619A75AD70086FE34 /* MHDecoratorExamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHDecoratorExamples-Prefix.pch"; sourceTree = "<group>"; };
 		D21D7E6719A75AD70086FE34 /* MHDecoratorExamples.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MHDecoratorExamples.1; sourceTree = "<group>"; };
+		D21D7E6F19A75B530086FE34 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		D21D7E7019A75B530086FE34 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
+		D21D7E7119A75B530086FE34 /* BeverageDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeverageDecorator.h; sourceTree = "<group>"; };
+		D21D7E7219A75B530086FE34 /* BeverageDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeverageDecorator.m; sourceTree = "<group>"; };
+		D21D7E7319A75B530086FE34 /* Espresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		D21D7E7419A75B530086FE34 /* Espresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		D21D7E7519A75B530086FE34 /* Milk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		D21D7E7619A75B530086FE34 /* Milk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		D21D7E7719A75B530086FE34 /* Soya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soya.h; sourceTree = "<group>"; };
+		D21D7E7819A75B530086FE34 /* Soya.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soya.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +63,7 @@
 		D21D7E5419A75AD70086FE34 = {
 			isa = PBXGroup;
 			children = (
+				D21D7E6E19A75B530086FE34 /* CoffeeShop */,
 				D21D7E6219A75AD70086FE34 /* MHDecoratorExamples */,
 				D21D7E5F19A75AD70086FE34 /* Frameworks */,
 				D21D7E5E19A75AD70086FE34 /* Products */,
@@ -86,6 +102,24 @@
 				D21D7E6619A75AD70086FE34 /* MHDecoratorExamples-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D21D7E6E19A75B530086FE34 /* CoffeeShop */ = {
+			isa = PBXGroup;
+			children = (
+				D21D7E6F19A75B530086FE34 /* Beverage.h */,
+				D21D7E7019A75B530086FE34 /* Beverage.m */,
+				D21D7E7119A75B530086FE34 /* BeverageDecorator.h */,
+				D21D7E7219A75B530086FE34 /* BeverageDecorator.m */,
+				D21D7E7319A75B530086FE34 /* Espresso.h */,
+				D21D7E7419A75B530086FE34 /* Espresso.m */,
+				D21D7E7519A75B530086FE34 /* Milk.h */,
+				D21D7E7619A75B530086FE34 /* Milk.m */,
+				D21D7E7719A75B530086FE34 /* Soya.h */,
+				D21D7E7819A75B530086FE34 /* Soya.m */,
+			);
+			name = CoffeeShop;
+			path = MHDecoratorExamples/CoffeeShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21D7E7C19A75B530086FE34 /* Milk.m in Sources */,
+				D21D7E7A19A75B530086FE34 /* BeverageDecorator.m in Sources */,
+				D21D7E7B19A75B530086FE34 /* Espresso.m in Sources */,
+				D21D7E7919A75B530086FE34 /* Beverage.m in Sources */,
 				D21D7E6419A75AD70086FE34 /* main.m in Sources */,
+				D21D7E7D19A75B530086FE34 /* Soya.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
